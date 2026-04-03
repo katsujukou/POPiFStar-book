@@ -1,0 +1,5 @@
+{
+  "editor.fontFamily": "'HackGen Nerd', 'Fira Code', monospace",
+  "editor.fontLigatures": true,
+  "nixEnvSelector.suggestion": false,
+}
