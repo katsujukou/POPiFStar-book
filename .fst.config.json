@@ -1,6 +1,7 @@
 {
   "fstar_exe": "fstar",
   "include_dirs": [
-    "./Part2"
+    "./Part2",
+    "./Part3"
   ] 
 }

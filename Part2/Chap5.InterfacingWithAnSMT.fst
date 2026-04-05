@@ -1,4 +1,4 @@
-module Chap4.InterfacingWithAnSMT
+module Chap5.InterfacingWithAnSMT
 
 
 let max x y = if x > y then x else y 

@@ -1,4 +1,4 @@
-module Chap8.CaseStudy 
+module Chap9.CaseStudy 
 
 open FStar.List.Tot
 

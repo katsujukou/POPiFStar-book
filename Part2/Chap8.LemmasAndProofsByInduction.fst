@@ -1,9 +1,9 @@
-module Chap7.LemmasAndProofsByInduction 
+module Chap8.LemmasAndProofsByInduction 
 
 open FStar.List.Tot
 open FStar.List.Tot.Properties
 open Chap2.GettingOffTheGround
-open Chap6.ProofsOfTermination
+open Chap7.ProofsOfTermination
 
 let rec factorial_is_greater_than_arg (x : int)
   : Lemma 

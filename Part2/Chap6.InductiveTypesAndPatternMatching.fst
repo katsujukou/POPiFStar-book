@@ -1,4 +1,4 @@
-module Chap5.InductiveTypesAndPatternMatching
+module Chap6.InductiveTypesAndPatternMatching
 
 type three = 
   | One_of_three : three 

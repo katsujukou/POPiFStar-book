@@ -1,4 +1,5 @@
-module Chap6.ProofsOfTermination
+module Chap7.ProofsOfTermination
+
 open FStar.List.Tot.Base
 open FStar.List.Tot.Properties
 open FStar.Mul
