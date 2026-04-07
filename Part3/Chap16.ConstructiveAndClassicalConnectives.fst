@@ -53,3 +53,17 @@ let intro_disj_2_sugar #p #q (pf_q : squash q)
   : Lemma (p \/ q)
   = introduce p \/ q 
     with Right pf_q
+
+let neg_intro #p (f:squash p -> squash False)
+  : squash (~p)
+  = introduce p ==> False 
+    with pf_p. f pf_p 
+
+let neg_elim 
+  #p 
+  #q 
+  (f:squash (~p)) 
+  (x:unit -> Lemma p)
+  : squash (~q)
+  = eliminate p ==> False 
+    with x ()
